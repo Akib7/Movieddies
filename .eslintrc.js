@@ -11,7 +11,12 @@ module.exports = {
   },
   plugins: ["react"],
   rules: {
-    "comma-dangle": ["error", "never"],
+    "react/function-component-definition": [
+      2,
+      {
+        namedComponents: "function-declaration",
+      },
+    ],
     quotes: [2, "double", { avoidEscape: true, allowTemplateLiterals: true }],
     "import/extensions": 0,
     "react/prop-types": 0,
