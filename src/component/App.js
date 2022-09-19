@@ -1,9 +1,12 @@
 import React from "react";
+import { CssBaseline } from "@mui/material";
+// import { Route, Switch } from "react-router-dom";
 
-// function App() {
-//   return <div>app</div>;
-// }
-
-const App = () => <div>App</div>;
+const App = () => (
+  <div>
+    <CssBaseline />
+    <h1>Hello World - Movieddies</h1>
+  </div>
+);
 
 export default App;

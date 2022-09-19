@@ -12,9 +12,26 @@ module.exports = {
   plugins: ["react"],
   rules: {
     "react/function-component-definition": [
-      2,
+      "error",
       {
-        namedComponents: "function-declaration",
+        namedComponents: [
+          "function-declaration",
+          "arrow-function",
+          "function-expression",
+        ],
+        unnamedComponents: ["arrow-function", "function-expression"],
+      },
+    ],
+    "trailing-comma": [
+      true,
+      {
+        singleline: "never",
+        multiline: {
+          objects: "never", // <==================
+          arrays: "never",
+          functions: "never",
+          typeLiterals: "ignore",
+        },
       },
     ],
     quotes: [2, "double", { avoidEscape: true, allowTemplateLiterals: true }],
