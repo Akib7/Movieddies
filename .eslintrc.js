@@ -23,7 +23,7 @@ module.exports = {
       },
     ],
     "trailing-comma": [
-      false,
+      true,
       {
         singleline: "never",
         multiline: {
