@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-A movie app like that of Netflix.
+A movie app like that of Netflix using ReactJs.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
