@@ -80,13 +80,17 @@ const NavBar = () => {
               variant="temporary"
               anchor="right"
               open={mobileOpen}
-              classes={{ paper: classes.drawePaper }} //to override the mui's class
+              classes={{ paper: classes.drawerPaper }} //to override the mui's class
               ModalProps={{ keppMounted: true }}
             >
               <Sidebar setMobileOpen={setMobileOpen} />
             </Drawer>
           ) : (
-            <Drawer>
+            <Drawer
+              classes={{ paper: classes.drawerPaper }}
+              variant="permanent"
+              open
+            >
               <Sidebar setMobileOpen={setMobileOpen} />
             </Drawer>
           )}

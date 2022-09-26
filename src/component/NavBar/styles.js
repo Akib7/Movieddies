@@ -28,7 +28,7 @@ export default makeStyles((theme) => ({
       flexShrink: 0,
     },
   },
-  drawePaper: {
+  drawerPaper: {
     width: drawerWidth,
   },
   linkButton: {
