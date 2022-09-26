@@ -22,18 +22,19 @@ module.exports = {
         unnamedComponents: ["arrow-function", "function-expression"],
       },
     ],
-    "trailing-comma": [
-      true,
-      {
-        singleline: "never",
-        multiline: {
-          objects: "never", // <==================
-          arrays: "never",
-          functions: "never",
-          typeLiterals: "ignore",
-        },
-      },
-    ],
+    "comma-dangle": 2,
+    // "trailing-comma": [
+    //   true,
+    //   {
+    //     singleline: "never",
+    //     multiline: {
+    //       objects: "never", // <==================
+    //       arrays: "never",
+    //       functions: "never",
+    //       typeLiterals: "ignore",
+    //     },
+    //   },
+    // ],
     quotes: [2, "double", { avoidEscape: true, allowTemplateLiterals: true }],
     "import/extensions": 0,
     "react/prop-types": 0,
