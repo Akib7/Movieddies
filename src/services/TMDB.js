@@ -1,0 +1,20 @@
+import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
+
+const tmdbApiKey = process.env.TMDB_key;
+const page = 1;
+// /movie/popular?api_key=<<api_key>>&language=en-US&page=1
+
+export const tmdbApi = createApi({
+  reducerPath: "tmdbApi",
+  basedQuery: fetchBaseQuery({
+    baseUrl: "https://api.themoviedb.org/3",
+    endpoints: (builder) => ({
+      //* Get Movies by [type]
+      getMovies: builder.query({
+        query: () => `movie/popular?page=${page}&api_key=${tmdbApiKey}`,
+      }),
+    }),
+  }),
+});
+
+export const { useGetMoviesQuery } = tmdbApi; //redux toolkit query automatically creates a hook, but the name has to be same as the 'key' like getMovies
