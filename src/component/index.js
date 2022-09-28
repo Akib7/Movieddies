@@ -4,3 +4,5 @@ export { default as MovieInformation } from "./Movie Information/movie-informati
 export { default as Movies } from "./Movies/movies";
 export { default as NavBar } from "./NavBar/navbar";
 export { default as Sidebar } from "./Sidebar/Sidebar";
+export { default as MovieList } from "./MovieList/MovieList";
+export { default as Movie } from "./Movie/Movie";
