@@ -10,6 +10,7 @@ export default makeStyles((theme) => ({
     width: "230px",
     overflow: "hidden",
     whiteSpace: "nowrap",
+    zIndex: "100",
     marginTop: "10px",
     marginBottom: 0,
     textAlign: "center",

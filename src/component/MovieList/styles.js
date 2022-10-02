@@ -5,6 +5,7 @@ export default makeStyles((theme) => ({
     display: "flex",
     justifyContent: "space-between",
     overflow: "auto",
+    paddingLeft: "230px",
     flexWrap: "wrap",
     [theme.breakpoints.down("sm")]: {
       justifyContent: "center",
