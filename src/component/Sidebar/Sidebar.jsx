@@ -23,6 +23,9 @@ import { useGetGenreQuery } from "../../services/TMDB";
 // import "./sidebar.styles.scss";
 
 const Sidebar = ({ setMobileOpen }) => {
+  const { genreIdOrCategoryName } = useSelector(
+    (state) => state.currentGenreOrCategory
+  );
   const { data, isFetching } = useGetGenreQuery();
   const theme = useTheme();
   const classes = useStyles();
