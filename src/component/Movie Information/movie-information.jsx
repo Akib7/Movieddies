@@ -26,6 +26,7 @@ import {
 import { Link, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
+import useStyles from "./styles";
 import { useGetMovieQuery } from "../../services/TMDB";
 
 import "./movie-information.styles.scss";
@@ -33,6 +34,7 @@ import "./movie-information.styles.scss";
 const MovieInformation = () => {
   console.log("MovieInformation");
 
+  const classes = useStyles();
   const { id } = useParams();
   const { data, isFetching, error } = useGetMovieQuery(id);
 
@@ -51,7 +53,18 @@ const MovieInformation = () => {
     );
   }
 
-  return <div className="movie">Movie Information {id}</div>;
+  return (
+    <Grid container className={classes.containerSpaceAround}>
+      <Grid item sm={12} lg={4}>
+        <img
+          className={classes.poster}
+          src={`https://images.tmdb.org/t/p/w500/${data?.poster_path}`}
+          alt={data?.title}
+        />
+      </Grid>
+      <Grid item container></Grid>
+    </Grid>
+  );
 };
 
 export default MovieInformation;
