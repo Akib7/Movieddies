@@ -46,7 +46,14 @@ export const tmdbApi = createApi({
         return `movie/popular?page=${page}&api_key=${tmdbApiKey}`;
       },
     }),
+
+    //* Get Movie
+    getMovie: builder.query({
+      query: (id) =>
+        `/movie/${id}?api_key=${tmdbApiKey}&append_to_response=videos,credits`,
+    }),
   }),
 });
 
-export const { useGetMoviesQuery, useGetGenreQuery } = tmdbApi; //redux toolkit query automatically creates a hook, but the name has to be same as the 'key' like getMovies
+export const { useGetMoviesQuery, useGetGenreQuery, useGetMovieQuery } =
+  tmdbApi; //redux toolkit query automatically creates a hook, but the name has to be same as the 'key' like getMovies
