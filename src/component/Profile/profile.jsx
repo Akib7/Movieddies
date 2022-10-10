@@ -10,11 +10,8 @@ import "./profile.styles.scss";
 
 const Profile = () => {
   const { user } = useSelector(userSelector);
-
   const favouriteMovies = [];
-
   // console.log(user);
-
   const logout = () => {
     localStorage.clear();
 

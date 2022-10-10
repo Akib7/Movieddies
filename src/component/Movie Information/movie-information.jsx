@@ -34,8 +34,6 @@ import { selectGenreOrCategory } from "../../features/currentGenreOrCategory";
 import "./movie-information.styles.scss";
 
 const MovieInformation = () => {
-  console.log("MovieInformation");
-
   const dispatch = useDispatch();
 
   const classes = useStyles();
