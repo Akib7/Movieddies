@@ -50,4 +50,11 @@ export default makeStyles((theme) => ({
     filter: theme.palette.mode === "dark" && "invert(1)",
     marginRight: "10px",
   },
+  image: {
+    width: "100%",
+    maxWidth: "7em",
+    height: "8em",
+    objectFit: "cover",
+    borderRadius: "10px",
+  },
 }));
