@@ -236,7 +236,11 @@ const MovieInformation = () => {
           You might also like
         </Typography>
         {/* Loop through the recommended movies */}
-        <MovieList movies={recommendations} />
+        {recommendations ? (
+          <MovieList movies={recommendations} numberOfMovies={12} />
+        ) : (
+          <Box>Sorr, nothing was found.</Box>
+        )}
       </Box>
     </Grid>
   );
