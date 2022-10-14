@@ -84,7 +84,7 @@ const Sidebar = ({ setMobileOpen }) => {
             <CircularProgress />
           </Box>
         ) : (
-          data.genres.map(({ id, name }) => (
+          data?.genres?.map(({ id, name }) => (
             <Link key={id} className={classes.links} to="/">
               <ListItem
                 onClick={() => dispatch(selectGenreOrCategory(id))}

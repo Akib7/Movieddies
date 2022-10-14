@@ -11,9 +11,15 @@ export default makeStyles((theme) => ({
       flexWrap: "wrap",
       paddingLeft: "230px",
     },
+
     [theme.breakpoints.down("sm")]: {
       flexDirection: "column",
       flexWrap: "wrap",
+    },
+  },
+  containeAround: {
+    [theme.breakpoints.up("md")]: {
+      paddingLeft: "230px",
     },
   },
   poster: {

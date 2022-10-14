@@ -20,7 +20,7 @@ const Actors = () => {
         <img
           src={`https://images.tmdb.org/t/p/w500/${data?.profile_path}`}
           alt={data?.name}
-          className={classes.poster}
+          className={classes.image}
         />
       </Grid>
       <Grid item container direction="column" lg={7}>
