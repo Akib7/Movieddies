@@ -6,11 +6,11 @@ export default makeStyles((theme) => ({
     justifyContent: "space-around",
     margin: "10px 0 !important",
 
-    [theme.breakpoints.up("lg")]: {
-      flexDirection: "column",
-      flexWrap: "wrap",
-      paddingLeft: "230px",
-    },
+    // [theme.breakpoints.up("lg")]: {
+    //   flexDirection: "column",
+    //   flexWrap: "wrap",
+    //   paddingLeft: "230px",
+    // },
 
     [theme.breakpoints.down("sm")]: {
       flexDirection: "column",
@@ -18,6 +18,12 @@ export default makeStyles((theme) => ({
     },
   },
   containeAround: {
+    [theme.breakpoints.up("lg")]: {
+      display: "flex",
+      paddingLeft: "230px",
+      justifyContent: "space-around",
+      margin: "10px 0 !important",
+    },
     [theme.breakpoints.up("md")]: {
       paddingLeft: "230px",
     },
