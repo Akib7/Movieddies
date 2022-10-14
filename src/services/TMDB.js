@@ -57,6 +57,11 @@ export const tmdbApi = createApi({
       query: ({ movie_id, list }) =>
         `/movie/${movie_id}/${list}?api_key=${tmdbApiKey}`,
     }),
+
+    //* Get actors
+    getActors: builder.query({
+      query: (person_id) => `/person/${person_id}?api_key=${tmdbApiKey}`,
+    }),
   }),
 });
 
@@ -65,4 +70,5 @@ export const {
   useGetGenreQuery,
   useGetMovieQuery,
   useGetRecommendationsQuery,
+  useGetActorsQuery,
 } = tmdbApi; //redux toolkit query automatically creates a hook, but the name has to be same as the 'key' like getMovies
