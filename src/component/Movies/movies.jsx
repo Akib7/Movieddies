@@ -6,7 +6,7 @@ import {
   Typography,
 } from "@mui/material";
 import { useSelector } from "react-redux";
-import { MovieList } from "..";
+import { MovieList, Pagination } from "..";
 import { useGetMoviesQuery } from "../../services/TMDB";
 import { selectGenreOrCategory } from "../../features/currentGenreOrCategory";
 
@@ -22,7 +22,7 @@ const Movies = () => {
     page,
   });
 
-  // console.log(data);
+  // console.log(data?.total_pages);
 
   if (isFetching) {
     return (
@@ -49,6 +49,11 @@ const Movies = () => {
   return (
     <div>
       <MovieList movies={data} />
+      <Pagination
+        currentPage={page}
+        setPage={setPage}
+        totalPages={data.total_pages}
+      />
     </div>
   );
 };

@@ -10,6 +10,7 @@ import { useNavigate } from "react-router-dom";
 import MovieList from "../MovieList/MovieList";
 
 import useStyles from "./styles.js";
+import Pagination from "../Pagination/Pagination";
 
 const Actors = () => {
   const { id } = useParams();
@@ -90,13 +91,8 @@ const Actors = () => {
           </Box>
         </Grid>
         {/* </div> */}
-        <Box marginTop="5rem" width="100%">
-          <Typography
-            variant="h2"
-            gutterBottom
-            align="center"
-            fontFamily="bold"
-          >
+        <Box margin="2rem 0">
+          <Typography variant="h2" gutterBottom align="center">
             Movies
           </Typography>
           {actorMovies ? (
@@ -104,6 +100,11 @@ const Actors = () => {
           ) : (
             <Box>Sorry, nothing was found.</Box>
           )}
+          <Pagination
+            currentPage={page}
+            setPage={setPage}
+            totalPages={actorMovies?.total_pages}
+          />
         </Box>
       </Grid>
     </>
