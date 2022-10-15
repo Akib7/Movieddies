@@ -5,10 +5,11 @@ export default makeStyles((theme) => ({
     display: "flex",
     justifyContent: "space-between",
     overflow: "auto",
-    paddingLeft: "230px",
     flexWrap: "wrap",
+    paddingLeft: "230px",
     [theme.breakpoints.down("sm")]: {
       justifyContent: "center",
+      paddingRight: "230px",
     },
   },
 }));

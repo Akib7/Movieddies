@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import { useGetActorsQuery } from "../../services/TMDB.js";
+import {
+  useGetActorsQuery,
+  useGetActorMoviesQuery,
+} from "../../services/TMDB.js";
 import { Grid, Typography, Box, Button, CircularProgress } from "@mui/material";
 import { ArrowBack } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
-import { useGetActorMoviesQuery } from "../../services/TMDB.js";
 import MovieList from "../MovieList/MovieList";
 
 import useStyles from "./styles.js";
@@ -38,8 +40,9 @@ const Actors = () => {
   }
 
   return (
-    <Grid container spacing={3} className={classes.containerSpaceAround}>
-      <div className={classes.containerAround}>
+    <>
+      <Grid container spacing={3} className={classes.containerSpaceAround}>
+        {/* <div className={classes.containerAround}> */}
         <Grid item sm={12} lg={4}>
           <img
             className={classes.image}
@@ -55,6 +58,7 @@ const Actors = () => {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
+            paddingLeft: "250px",
           }}
         >
           <Typography variant="h2" gutterBottom>
@@ -85,18 +89,24 @@ const Actors = () => {
             </Button>
           </Box>
         </Grid>
-      </div>
-      <Box marginTop="5rem" width="100%">
-        <Typography variant="h2" gutterBottom align="center" fontFamily="bold">
-          Movies
-        </Typography>
-        {actorMovies ? (
-          <MovieList movies={actorMovies} numberOfMovies={12} />
-        ) : (
-          <Box>Sorry, nothing was found.</Box>
-        )}
-      </Box>
-    </Grid>
+        {/* </div> */}
+        <Box marginTop="5rem" width="100%">
+          <Typography
+            variant="h2"
+            gutterBottom
+            align="center"
+            fontFamily="bold"
+          >
+            Movies
+          </Typography>
+          {actorMovies ? (
+            <MovieList movies={actorMovies} numberOfMovies={12} />
+          ) : (
+            <Box>Sorry, nothing was found.</Box>
+          )}
+        </Box>
+      </Grid>
+    </>
   );
 };
 
