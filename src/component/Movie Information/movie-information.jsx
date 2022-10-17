@@ -76,7 +76,15 @@ const MovieInformation = () => {
   return (
     <Grid container className={classes.containerSpaceAround}>
       <div className={classes.containeAround}>
-        <Grid item sm={12} lg={4}>
+        <Grid
+          item
+          sm={12}
+          lg={4}
+          style={{
+            display: "flex",
+            marginBottom: "30px",
+          }}
+        >
           <img
             className={classes.poster}
             src={`https://images.tmdb.org/t/p/w500/${data?.poster_path}`}
@@ -103,10 +111,7 @@ const MovieInformation = () => {
               </Typography>
             </Box>
             <Typography variant="h6" align="center" gutterBottom>
-              {data?.runtime}min{" "}
-              {data?.spoken_languages
-                ? `/ ${data?.spoken_languages[0].name}`
-                : ""}
+              {data?.runtime}min | Language: ${data?.spoken_languages[0].name}
             </Typography>
           </Grid>
           <Grid item className={classes.genresContainer}>
@@ -246,7 +251,14 @@ const MovieInformation = () => {
         </Grid>
       </div>
       <Box marginTop="5rem" width="100%">
-        <Typography variant="h3" gutterBottom align="center">
+        <Typography
+          variant="h3"
+          gutterBottom
+          align="center"
+          style={{
+            paddingLeft: "160px",
+          }}
+        >
           You might also like
         </Typography>
         {/* Loop through the recommended movies */}

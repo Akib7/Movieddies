@@ -1,6 +1,16 @@
 import { makeStyles } from "@mui/styles";
 
 export default makeStyles((theme) => ({
+  // containerSpaceAround: {
+  //   display: "flex",
+  //   justifyContent: "space-around",
+  //   margin: "10px 0 !important",
+  //   paddingLeft: "230px",
+  //   [theme.breakpoints.down("sm")]: {
+  //     flexDirection: "column",
+  //     flexWrap: "wrap",
+  //   },
+  // },
   containerSpaceAround: {
     display: "flex",
     justifyContent: "space-around",
@@ -15,17 +25,45 @@ export default makeStyles((theme) => ({
     [theme.breakpoints.down("sm")]: {
       flexDirection: "column",
       flexWrap: "wrap",
+      // paddingLeft: "230px",
     },
   },
+
+  // display: "flex",
+  //   justifyContent: "space-between",
+  //   overflow: "auto",
+  //   flexWrap: "wrap",
+  //   paddingLeft: "230px",
+  //   [theme.breakpoints.down("sm")]: {
+  //     justifyContent: "center",
+  //     paddingRight: "230px",
+  //   },
+
   containeAround: {
+    // paddingLeft: "230px",
+    overflow: "auto",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    alignItems: "center",
+
     [theme.breakpoints.up("lg")]: {
       display: "flex",
       paddingLeft: "230px",
       justifyContent: "space-around",
       margin: "10px 0 !important",
+      overflow: "auto",
+      flexWrap: "wrap",
+    },
+
+    [theme.breakpoints.down("sm")]: {
+      flexDirection: "column",
+      flexWrap: "wrap",
     },
     [theme.breakpoints.up("md")]: {
       paddingLeft: "230px",
+      overflow: "auto",
+      flexWrap: "wrap",
+      justifyContent: "center",
     },
   },
   poster: {
@@ -35,7 +73,7 @@ export default makeStyles((theme) => ({
     [theme.breakpoints.down("md")]: {
       margin: "0 auto",
       width: "50%",
-      height: "350px",
+      // height: "350px",
     },
     [theme.breakpoints.down("sm")]: {
       margin: "0 auto",

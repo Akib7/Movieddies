@@ -45,7 +45,7 @@ export default makeStyles((theme) => ({
     marginLeft: "230px",
     [theme.breakpoints.down("sm")]: {
       justifyContent: "center",
-      paddingRight: "230px",
+      // paddingRight: "230px",
       alignItems: "center",
     },
   },
