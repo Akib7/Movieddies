@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 
 import {
   AppBar,
@@ -16,13 +16,15 @@ import {
   Brightness7,
 } from "@mui/icons-material";
 import { Link } from "react-router-dom";
-import useStyles from "./styles";
 import { useTheme } from "@mui/material/styles";
-import "./navbar.styles.scss";
 import { fetchToken, createSessionId, moviesApi } from "../../utils";
 import { Sidebar, Search } from "..";
 import { useDispatch, useSelector } from "react-redux";
 import { setUser, userSelector } from "../../features/auth";
+import { ColorModeContext } from "../../utils/ToggleColorMode";
+
+import useStyles from "./styles";
+import "./navbar.styles.scss";
 
 const NavBar = () => {
   const { isAuthenticated, user } = useSelector(userSelector);
@@ -34,7 +36,9 @@ const NavBar = () => {
   const isMobile = useMediaQuery("(max-width:600px)");
   const dispatch = useDispatch();
 
-  console.log(user);
+  const colorMode = useContext(ColorModeContext);
+
+  // console.log(user);
 
   const token = localStorage.getItem("request_token");
   const sessionIdFromLocalStorage = localStorage.getItem("session_id");
@@ -76,7 +80,11 @@ const NavBar = () => {
               <Menu />
             </IconButton>
           )}
-          <IconButton color="inherit" sx={{ ml: 1 }} onClick={() => {}}>
+          <IconButton
+            color="inherit"
+            sx={{ ml: 1 }}
+            onClick={colorMode.toggleColorMode}
+          >
             {theme === "dark" ? <Brightness7 /> : <Brightness4 />}
           </IconButton>
           {!isMobile && <Search />}
