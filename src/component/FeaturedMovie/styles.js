@@ -8,6 +8,11 @@ export default makeStyles((theme) => ({
     height: "490px",
     textDecoration: "none",
     paddingLeft: "230px",
+    [theme.breakpoints.down("sm")]: {
+      justifyContent: "center",
+      paddingLeft: "10px",
+      width: "410px",
+    },
   },
   card: {
     width: "100%",
