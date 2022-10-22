@@ -9,6 +9,7 @@ import { useSelector } from "react-redux";
 import { MovieList, Pagination } from "..";
 import { useGetMoviesQuery } from "../../services/TMDB";
 import { selectGenreOrCategory } from "../../features/currentGenreOrCategory";
+import "./movies.styles.scss";
 
 const Movies = () => {
   const [page, setPage] = useState(1);
@@ -38,7 +39,7 @@ const Movies = () => {
   if (!data.results.length) {
     return (
       <Box display="flex" alignItems="center" mt="20px">
-        <Typography variant="h4">
+        <Typography variant="h4" className="noResult">
           No movies that match that name.
           <br />
           Please search for something else.
