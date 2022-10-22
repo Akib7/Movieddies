@@ -45,17 +45,13 @@ const Sidebar = ({ setMobileOpen }) => {
   ];
 
   const redLogo =
-    "https://fontmeme.com/permalink/210930/8531c658a743debe1e1aa1a2fc82006e.png";
+    "https://fontmeme.com/permalink/221022/52bdca69e11ca15a58777e3417db7715.png";
   const blueLogo =
-    "https://fontmeme.com/permalink/210930/6854ae5c7f76597cf8680e48a2c8a50a.png";
+    "https://fontmeme.com/permalink/221022/32fb9e77479ea2f43d2911a0b1588494.png";
   return (
     <>
       <Link to="/" className={classes.imageLink}>
-        <img
-          className={classes.image}
-          src={theme.palette.mode === "light" ? redLogo : blueLogo}
-          alt="Moviddies Logo"
-        />
+        <img className={classes.image} src={redLogo} alt="Moviddies Logo" />
       </Link>
 
       <Divider />
