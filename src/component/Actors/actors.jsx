@@ -7,10 +7,9 @@ import {
 import { Grid, Typography, Box, Button, CircularProgress } from "@mui/material";
 import { ArrowBack } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
-import MovieList from "../MovieList/MovieList";
+import { MovieList, Pagination } from "..";
 
 import useStyles from "./styles.js";
-import Pagination from "../Pagination/Pagination";
 
 const Actors = () => {
   const { id } = useParams();

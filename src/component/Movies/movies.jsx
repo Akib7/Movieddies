@@ -6,7 +6,7 @@ import {
   Typography,
 } from "@mui/material";
 import { useSelector } from "react-redux";
-import { MovieList, Pagination } from "..";
+import { MovieList, Pagination, FeaturedMovie } from "..";
 import { useGetMoviesQuery } from "../../services/TMDB";
 import { selectGenreOrCategory } from "../../features/currentGenreOrCategory";
 import "./movies.styles.scss";
@@ -52,6 +52,7 @@ const Movies = () => {
 
   return (
     <div>
+      <FeaturedMovie />
       <MovieList movies={data} numberOfMovies={numberOfMovies} />
       <Pagination
         currentPage={page}

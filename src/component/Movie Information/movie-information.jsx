@@ -35,9 +35,9 @@ import {
 } from "../../services/TMDB";
 import { selectGenreOrCategory } from "../../features/currentGenreOrCategory";
 import { userSelector } from "../../features/auth";
+import { MovieList } from "..";
 
 import "./movie-information.styles.scss";
-import MovieList from "../MovieList/MovieList";
 
 const MovieInformation = () => {
   const { user } = useSelector(userSelector);
