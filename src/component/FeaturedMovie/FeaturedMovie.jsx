@@ -22,6 +22,17 @@ const FeaturedMovie = ({ movie }) => {
           title={movie.title}
           className={classes.media}
         />
+        <Box padding="20px">
+          <CardContent
+            className={classes.cardContent}
+            classes={{ root: classes.cardContentRoot }}
+          >
+            <Typography variant="h5" gutterBottom>
+              {movie.title}
+            </Typography>
+            <Typography variant="body2">{movie?.overview}</Typography>
+          </CardContent>
+        </Box>
       </Card>
     </Box>
   );
