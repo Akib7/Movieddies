@@ -121,8 +121,8 @@ const NavBar = () => {
               anchor="right"
               open={mobileOpen}
               onClose={() => setMobileOpen((prevMobileOpen) => !prevMobileOpen)}
-              classes={{ paper: classes.drawerPaper }} //to override the mui's class
-              ModalProps={{ keppMounted: true }}
+              classes={{ paper: classes.drawerPaper }}
+              ModalProps={{ keepMounted: true }}
             >
               <Sidebar setMobileOpen={setMobileOpen} />
             </Drawer>

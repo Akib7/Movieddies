@@ -7,7 +7,7 @@ export default makeStyles((theme) => ({
     height: "80px",
     display: "flex",
     justifyContent: "space-between",
-    marginLeft: "224px",
+    marginLeft: "240px",
     [theme.breakpoints.down("sm")]: {
       // mobile devices
       marginLeft: 0,
