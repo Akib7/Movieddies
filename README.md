@@ -30,9 +30,13 @@ Enjoy.
 
 ### Phone view
 ![phoneV1](https://user-images.githubusercontent.com/75217894/198069715-4067353b-b338-4758-9808-7b7f6f4982c5.PNG)
+
 ![phn2drawer](https://user-images.githubusercontent.com/75217894/198069762-e8fdda7e-ec64-4cec-a52f-3da285158c68.PNG)
+
 ![phoneV2](https://user-images.githubusercontent.com/75217894/198069808-0873d4bb-bb5c-425f-9e65-c171a3babd78.PNG)
+
 ![phoneV3](https://user-images.githubusercontent.com/75217894/198069855-a1a84198-0d91-4afc-a44f-c61ae2f558f2.PNG)
+
 ![phoneV4](https://user-images.githubusercontent.com/75217894/198069884-403a00a0-35e1-4fba-a1aa-b6481490ef43.PNG)
 
 
