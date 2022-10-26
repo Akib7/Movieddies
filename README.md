@@ -3,7 +3,7 @@ This is Movieddies, an app where you can search for your desired movies, add to 
 Enjoy.
 
 ### Popular page
-![main](https://user-images.githubusercontent.com/75217894/198062203-3a2b642c-b239-4857-ad5a-37a3a9d984eb.PNG)
+![main](https://user-images.githubusercontent.com/75217894/198063729-8fe16017-e449-4b40-a277-8676a5f4163c.PNG)
 
 ### Light Mode
 ![movlight](https://user-images.githubusercontent.com/75217894/198059652-ad606008-f9fb-4258-b051-6991425154ff.PNG)
@@ -15,7 +15,7 @@ Enjoy.
 ![movInfo](https://user-images.githubusercontent.com/75217894/198063237-533ef034-717d-43c0-a177-9f448a1d2c9b.PNG)
 
 ### Search For Movies
-![search](https://user-images.githubusercontent.com/75217894/198063396-3a313bd8-2f5e-468d-a19e-a11fcb2b9c45.PNG)
+![search](https://user-images.githubusercontent.com/75217894/198063940-0ac28a1e-f73a-4017-981a-809ad1a6b417.PNG)
 
 ### Realted Movie of that particular Actor/Actress
 ![relatedMovies](https://user-images.githubusercontent.com/75217894/198061533-ee4f9a4c-9d1b-4e03-95e1-f4f8ffbe307d.PNG)
