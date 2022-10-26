@@ -2,3 +2,8 @@ This is Movieddies, an app where you can search for your desired movies, add to 
 
 Enjoy.
 
+![movlight](https://user-images.githubusercontent.com/75217894/198059652-ad606008-f9fb-4258-b051-6991425154ff.PNG)
+Light Mode
+
+![darkknight](https://user-images.githubusercontent.com/75217894/198059714-38f550d2-d372-4fa9-b840-0e99909c8ec1.PNG)
+Dark Mode
