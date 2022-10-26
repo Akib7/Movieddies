@@ -2,9 +2,17 @@ This is Movieddies, an app where you can search for your desired movies, add to 
 
 Enjoy.
 
-
-![movlight](https://user-images.githubusercontent.com/75217894/198059652-ad606008-f9fb-4258-b051-6991425154ff.PNG)
 ### Light Mode
+![movlight](https://user-images.githubusercontent.com/75217894/198059652-ad606008-f9fb-4258-b051-6991425154ff.PNG)
 
+### Dark Mode
 ![darkknight](https://user-images.githubusercontent.com/75217894/198059714-38f550d2-d372-4fa9-b840-0e99909c8ec1.PNG)
-Dark Mode
+
+### Movie Information
+![darkknight](https://user-images.githubusercontent.com/75217894/198061361-af4bada1-62c1-4305-82e0-35a08f05f0ab.PNG)
+
+### Realted Movie of that particular Actor/Actress
+![relatedMovies](https://user-images.githubusercontent.com/75217894/198061533-ee4f9a4c-9d1b-4e03-95e1-f4f8ffbe307d.PNG)
+
+### Trailer
+![trailer](https://user-images.githubusercontent.com/75217894/198061656-53c5e144-6cc8-48ac-b4e2-3422bffed046.PNG)
