@@ -22,7 +22,7 @@ Enjoy.
 ### Actor Page
 ![cb](https://user-images.githubusercontent.com/75217894/198064278-bd6e0d6b-8488-4c34-9ae2-58d0a2385e67.PNG)
 
-### Related Movie of a particular Actor/Actress
+### Related Movies of a particular Actor/Actress
 ![relatedMovies](https://user-images.githubusercontent.com/75217894/198061533-ee4f9a4c-9d1b-4e03-95e1-f4f8ffbe307d.PNG)
 
 ### Trailer
