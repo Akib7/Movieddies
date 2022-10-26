@@ -35,3 +35,4 @@ Enjoy.
 <img src="https://user-images.githubusercontent.com/75217894/198068079-0f376c69-4723-4c3e-ae3f-323fdb99c73b.PNG" width="300" height="450" />
 <img src="https://user-images.githubusercontent.com/75217894/198068170-1ebb0d97-0031-4e84-8726-153fd659407d.PNG" width="300" height="450" />
 
+![phoneV2](https://user-images.githubusercontent.com/75217894/198069296-2c8592ee-8ba7-412c-a977-29c251eb784b.PNG)
