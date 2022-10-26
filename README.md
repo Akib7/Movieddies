@@ -29,10 +29,9 @@ Enjoy.
 ![trailer](https://user-images.githubusercontent.com/75217894/198061656-53c5e144-6cc8-48ac-b4e2-3422bffed046.PNG)
 
 ### Phone view
-<img src="https://user-images.githubusercontent.com/75217894/198067473-f238c7de-fca7-4260-8938-9aec4d027fbb.PNG" width="300" height="450" />
-<img src="https://user-images.githubusercontent.com/75217894/198067721-cc45c87a-0687-4470-811c-815c6d7f92d1.PNG" width="300" height="450" />
-<img src="https://user-images.githubusercontent.com/75217894/198067951-b1beef63-c6b6-4d90-8f63-a6fff8751942.PNG" width="300" height="450" />
-<img src="https://user-images.githubusercontent.com/75217894/198068079-0f376c69-4723-4c3e-ae3f-323fdb99c73b.PNG" width="300" height="450" />
-<img src="https://user-images.githubusercontent.com/75217894/198068170-1ebb0d97-0031-4e84-8726-153fd659407d.PNG" width="300" height="450" />
+![phoneV1](https://user-images.githubusercontent.com/75217894/198069508-bef9ef22-c64e-499d-8607-5c296400b067.PNG)
+![phoneV3](https://user-images.githubusercontent.com/75217894/198069547-77d806f1-cccd-45e7-a3ec-964cd18296a8.PNG)
+![phoneV4](https://user-images.githubusercontent.com/75217894/198069554-e2d7c0b9-55e0-410a-8be1-c7e75277628a.PNG)
+![phn2drawer](https://user-images.githubusercontent.com/75217894/198069555-b2a5aa4b-6e2f-4f4b-8a4e-0efdd3c2ae5c.PNG)
+![phoneV2](https://user-images.githubusercontent.com/75217894/198069559-c10a01e5-11bb-43c9-878a-657b3f91dd52.PNG)
 
-![phoneV2](https://user-images.githubusercontent.com/75217894/198069296-2c8592ee-8ba7-412c-a977-29c251eb784b.PNG)
