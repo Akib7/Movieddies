@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-export const genreCategory = createSlice({
+export const genreOrCategory = createSlice({
   name: "genreOrCategory",
   initialState: {
     genreIdOrCategoryName: "",
@@ -19,6 +19,6 @@ export const genreCategory = createSlice({
   },
 });
 
-export const { selectGenreOrCategory, searchMovie } = genreCategory.actions;
+export const { selectGenreOrCategory, searchMovie } = genreOrCategory.actions;
 
-export default genreCategory.reducer;
+export default genreOrCategory.reducer;

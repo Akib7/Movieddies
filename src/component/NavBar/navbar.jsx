@@ -97,15 +97,14 @@ const NavBar = () => {
               <Button
                 color="inherit"
                 component={Link}
-                to={`/profile/:${user.id}`}
+                to={`/profile/${user.id}`}
                 className={classes.linkButton}
-                onClick={() => {}}
               >
-                {!isMobile && <>My Movies &nbsp; </>}
+                {!isMobile && <>My Movies &nbsp;</>}
                 <Avatar
                   style={{ width: 30, height: 30 }}
                   alt="Profile"
-                  src={`https://www.themoviedb.org/t/p/w64_and_h64_face${user?.avatar?.tmdb?.avatar_path}`}
+                  src={`https://www.themoviedb.org/t/p/w64_and_h64_face${user?.avatar?.tmdb?.avatar?.avatar_path}`}
                 />
               </Button>
             )}
