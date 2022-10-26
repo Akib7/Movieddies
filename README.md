@@ -17,7 +17,10 @@ Enjoy.
 ### Search For Movies
 ![search](https://user-images.githubusercontent.com/75217894/198063940-0ac28a1e-f73a-4017-981a-809ad1a6b417.PNG)
 
-### Realted Movie of that particular Actor/Actress
+### Actor Page
+![cb](https://user-images.githubusercontent.com/75217894/198064278-bd6e0d6b-8488-4c34-9ae2-58d0a2385e67.PNG)
+
+### Realted Movie of a particular Actor/Actress
 ![relatedMovies](https://user-images.githubusercontent.com/75217894/198061533-ee4f9a4c-9d1b-4e03-95e1-f4f8ffbe307d.PNG)
 
 ### Trailer
