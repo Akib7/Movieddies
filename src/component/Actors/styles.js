@@ -10,6 +10,6 @@ export default makeStyles(() => ({
   buttons: {
     display: "flex",
     justifyContent: "space-around",
-    marginTop: "40px",
+    marginTop: "2rem",
   },
 }));

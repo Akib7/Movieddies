@@ -42,7 +42,7 @@ const Actors = () => {
   return (
     <>
       <Grid container spacing={3}>
-        <Grid item sm={12} lg={4}>
+        <Grid item lg={5} xl={4}>
           <img
             className={classes.image}
             src={`https://images.tmdb.org/t/p/w500/${data?.profile_path}`}
@@ -57,7 +57,6 @@ const Actors = () => {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
-            paddingLeft: "250px",
           }}
         >
           <Typography variant="h2" gutterBottom>
