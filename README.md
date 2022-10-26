@@ -28,7 +28,11 @@ Enjoy.
 ### Trailer
 ![trailer](https://user-images.githubusercontent.com/75217894/198061656-53c5e144-6cc8-48ac-b4e2-3422bffed046.PNG)
 
-### Phone view
+### iPad View
+![ipad](https://user-images.githubusercontent.com/75217894/198071188-1ba47acb-550d-4183-a0f3-949c21378fff.PNG)
+![ipad2](https://user-images.githubusercontent.com/75217894/198071246-df034085-74a3-4147-a013-848fd9259ace.PNG)
+
+### Phone View
 ![phoneV1](https://user-images.githubusercontent.com/75217894/198069715-4067353b-b338-4758-9808-7b7f6f4982c5.PNG)
 ![phn2drawer](https://user-images.githubusercontent.com/75217894/198069762-e8fdda7e-ec64-4cec-a52f-3da285158c68.PNG)
 ![phoneV2](https://user-images.githubusercontent.com/75217894/198069808-0873d4bb-bb5c-425f-9e65-c171a3babd78.PNG)
