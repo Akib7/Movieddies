@@ -25,7 +25,7 @@ export default makeStyles((theme) => ({
   drawer: {
     [theme.breakpoints.up("sm")]: {
       //not mobile devices
-      display: drawerWidth, //css in js
+      width: drawerWidth, //css in js
       flexShrink: 0,
     },
   },

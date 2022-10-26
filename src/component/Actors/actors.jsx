@@ -41,8 +41,7 @@ const Actors = () => {
 
   return (
     <>
-      <Grid container spacing={3} className={classes.containerSpaceAround}>
-        {/* <div className={classes.containerAround}> */}
+      <Grid container spacing={3}>
         <Grid item sm={12} lg={4}>
           <img
             className={classes.image}
@@ -89,7 +88,7 @@ const Actors = () => {
             </Button>
           </Box>
         </Grid>
-        {/* </div> */}
+
         <Box margin="2rem 0">
           <Typography variant="h2" gutterBottom align="center">
             Movies

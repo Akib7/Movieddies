@@ -5,14 +5,9 @@ export default makeStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    paddingLeft: "230px",
-
-    [theme.breakpoints.down("sm")]: {
-      paddingRight: "230px",
-    },
   },
   button: {
-    margin: "30px 0",
+    margin: "30px 2px",
   },
   pageNumber: {
     margin: "0 20px !important",
